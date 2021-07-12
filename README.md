@@ -8,4 +8,7 @@ If you have any questions feel free to contact us: support@polarsoftware.com, or
 **Polar Name Extractor .NET Core Component**  is the perfect solution to all your name extraction problems.  
 It is an easy-to-use .NET Core component, ideal for software developers who want to extract and parse names, surnames from text.
 
+### Licensing in brief
+100% royalty free distribution, for desktop and server.
+
 More info soon at [web site](http://name.polarsoftware.com/index.html)
