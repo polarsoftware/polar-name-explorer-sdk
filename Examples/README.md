@@ -6,13 +6,13 @@ This repository contains C# examples for Polar Name Explorer for .NET Core Compo
 ## How to Run the Examples? TODO
 --->
 
-### Software Requirements
+## Software Requirements
 Please make sure you meet the following requirements before downloading and running the examples.
 
 1. Visual Studio 2019 or higher
 1. The example project uses NuGet Automatic Package Restore feature, therefore, you should have an active internet connection
 
-### Download from GitHub
+## Download from GitHub
 All examples of Polar Name Explorer for .NET Core Component are hosted on GitHub.
 
 * You can either clone the repository using your favorite GitHub client or [download the ZIP](https://github.com/polarsoftware/polar-name-explorer-sdk/archive/refs/heads/main.zip) file from GitHub.
@@ -29,27 +29,13 @@ Please feel free to reach out using our [getting help resource](https://github.c
 
 **Note:** Before you unzip the archive, right-click it, select Properties, and then select Unblock.
 
+## License
+Polar has no liability for any damage or consequence that may arise by the use or viewing of the samples. The samples are for demonstrative purposes and if you choose to use or access the samples you agree to not hold Polar liable, in any form, for any damage that is related to use, accessing or otherwise viewing the samples. By accessing, viewing, or otherwise seeing the samples you acknowledge and agree Polar’s samples will not allow you to seek injunctive relief in any form for any claim related to the sample. If you do not agree to this, do not view, access, utilize or otherwise do anything with Polar’s samples.
+
 Copyright © Polar d.o.o. 
 
 <!--- 
-*****************
 After you have downloaded the ZIP file from the Download ZIP link above, please check the following link with detailed instructions on how to run these Source Code Examples.
 How to Run the Examples
 Please feel free to contact us if you have any question, issue or suggestion.
-*************
-Polar Name Explorer .NET Core Component
-
-### Polar Name Explorer - .NET Core Component - Coming Soon!
-
-If you have any questions feel free to contact us: support@polarsoftware.com, or find anything you want to know here: [issues](https://github.com/polarsoftware/PolarNameExplorerCommunity/issues).
-
-**Polar Name Explorer .NET Core Component**  is the perfect solution to all your name extraction problems.  
-It is an easy-to-use .NET Core component, ideal for software developers who want to extract and parse names, surnames from text.
-
-
-### Licensing in brief
-100% royalty free distribution, for desktop and server.
-
-More info soon at [web site](http://name.polarsoftware.com/index.html)
-## How to Run the Examples?
 --->
