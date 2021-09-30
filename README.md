@@ -10,8 +10,8 @@ It is an easy-to-use .NET Core component, ideal for software developers who want
 * [Get Started](#get-started)
 * [Getting Help](#getting-help)
 * [Opening Issues](#opening-issues)
-* [SDK Developer Guide, documentation](https://github.com/polarsoftware/PolarNameExplorerCommunity/wiki)
-* [SDK Examples](https://github.com/polarsoftware/PolarNameExplorerCommunity/tree/main/Examples)
+* [SDK Developer Guide, documentation][wiki-docs]
+* [SDK Examples][sdk-examples]
 
 ## Get Started
 #### Quciks Example  
@@ -50,14 +50,14 @@ For help and questions with using **Polar Name Explorer SDK**  please make use o
 There are limited resources available for handling issues and by keeping the list of open issues clean we can respond in a timely manner.
 
 ## Note
-This repository does not contain the actual source code of the components.
-More info soon at [web site](http://name.polarsoftware.com/index.html)
+This repository does not contain the actual source code of the components.  
+More info soon at [web site](http://name.polarsoftware.com/index.html)  
 If you have any questions feel free to contact us: support@polarsoftware.com, or find anything you want to know here: [issues](https://github.com/polarsoftware/PolarNameExplorerCommunity/issues).
 
 ### Licensing in brief
 100% royalty free distribution, for desktop and server.
 
-[sdk-issues]: https://github.com/polarsoftware/PolarNameExplorerCommunity
-[wiki-docs]: https://github.com/polarsoftware/PolarNameExplorerCommunity
-[sdk-examples]: https://github.com/polarsoftware/PolarNameExplorerCommunity
+[sdk-issues]: https://github.com/polarsoftware/polar-name-explorer-sdk/issues
+[wiki-docs]: https://github.com/polarsoftware/polar-name-explorer-sdk/wiki
+[sdk-examples]: https://github.com/polarsoftware/polar-name-explorer-sdk/tree/main/Examples
 
