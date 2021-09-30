@@ -50,8 +50,9 @@ For help and questions with using **Polar Name Explorer SDK**  please make use o
 There are limited resources available for handling issues and by keeping the list of open issues clean we can respond in a timely manner.
 
 ## Note
-This repository does not contain the actual source code of the components.  
-More info soon at [web site](http://name.polarsoftware.com/index.html)  
+This repository does not contain the actual source code of the components.    
+Currently, the product is in the release candidate phase.  
+Follow the information here on the GitHub repository **Polar Name Explorer SDK** and on the [website](http://name.polarsoftware.com/index.html)    
 If you have any questions feel free to contact us: support@polarsoftware.com, or find anything you want to know here: [issues](https://github.com/polarsoftware/PolarNameExplorerCommunity/issues).
 
 ### Licensing in brief
