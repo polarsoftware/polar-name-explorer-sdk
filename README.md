@@ -1,14 +1,21 @@
-# Polar Name Explorer Community
-Polar Name Explorer .NET Core Component
+# Polar Name Explorer SDK 
 
-### Polar Name Explorer - .NET Core Component - Coming Soon!
+The **Polar Name Explorer SDK** enables .NET developers to easily work with **Polar Name Explorer .NET Core Component**.
 
-If you have any questions feel free to contact us: support@polarsoftware.com, or find anything you want to know here: [issues](https://github.com/polarsoftware/PolarNameExplorerCommunity/issues).
+The **SDK** is an easy-to-use infrastructure containing developer focused examples, documentation (GitHub Wiki) and official bug tracker (GitHub Issues).
 
-**Polar Name Explorer .NET Core Component**  is the perfect solution to all your name extraction problems.  
+**Polar Name Explorer .NET Core Component** is the perfect solution to all your name extraction problems.
 It is an easy-to-use .NET Core component, ideal for software developers who want to extract and parse names, surnames from text.
 
-### Example
+* [Get Started](#get-started)
+* [Getting Help](#getting-help)
+* [Opening Issues](#opening-issues)
+* GitHub Issues
+* documentation SDK Developer Guide
+* SDK Examples
+
+## Get Started
+#### Quciks Example  
 ```C#
 using Polar.PersonNameExtractor;
 
@@ -21,7 +28,48 @@ Console.WriteLine(name.PersonNameData.First);//"Rebecca"
 Console.WriteLine(name.PersonNameData.Last);//"Armstrong"
 ```
 
+## Get Help
+Please use these community resources for getting help. We use the [GitHub issues][sdk-issues] for tracking bugs and feature requests.
+
+* If it turns out that you may have found a bug, please open an [issue via Github Issues][sdk-issues].
+* Suggest an idea for this product, open [feature request][sdk-issues].
+* For tutorials, quick starts, and other documentation, go to [Wiki documentation][wiki-docs].
+* For Examples, go to [examples][sdk-examples].
+* Ask a question on [StackOverflow](http://stackoverflow.com/) and tag it with polar-name-explorer.
+<!--- * File an issue via Github Issues.
+* Open a support ticket with Polar Support ( support@polarsoftware.com ).  --->
+
+### Opening Issues
+Opening Issues
+If you encounter a bug with **Polar Name Explorer SDK** we would like to hear about it. 
+Search the existing [issues][sdk-issues] and try to make sure your problem doesn’t already exist before opening a new issue. 
+It’s helpful if you include the version of **Polar Name Explorer SDK** and the OS you’re using. 
+Please include a stack trace and reduced repro case when appropriate, too.
+
+The [GitHub issues][sdk-issues] are intended for bug reports and feature requests. 
+For help and questions with using **Polar Name Explorer SDK**  please make use of the resources listed in the Getting Help section. 
+There are limited resources available for handling issues and by keeping the list of open issues clean we can respond in a timely manner.
+
+## Note
+This repository does not contain the actual source code of the components.
+
+If you have any questions feel free to contact us: support@polarsoftware.com, or find anything you want to know here: [issues](https://github.com/polarsoftware/PolarNameExplorerCommunity/issues).
+
 ### Licensing in brief
 100% royalty free distribution, for desktop and server.
 
 More info soon at [web site](http://name.polarsoftware.com/index.html)
+
+<!--- 
+Soruces
+https://github.com/aws/aws-sdk-net/blob/master/README.md
+https://github.com/Azure/azure-sdk-for-net
+https://github.com/telerik/kendo-angular/blob/master/README.md --->
+
+If you have any questions feel free to contact us: support@polarsoftware.com, or find anything you want to know here: [issues](https://github.com/polarsoftware/PolarNameExplorerCommunity/issues).
+
+------------
+[sdk-issues]: https://github.com/polarsoftware/PolarNameExplorerCommunity
+[wiki-docs]: https://github.com/polarsoftware/PolarNameExplorerCommunity
+[sdk-examples]: https://github.com/polarsoftware/PolarNameExplorerCommunity
+------------ 
