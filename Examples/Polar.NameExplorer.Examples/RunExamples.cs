@@ -2,11 +2,12 @@
 
 namespace Polar.NameExplorer.Examples
 {
-    class Program
+    class RunExamples
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        {            
+            BasicExtracName.Run();
+            BasicParseName.Run();
         }
     }
 }
