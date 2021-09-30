@@ -3,7 +3,7 @@
 This repository contains C# examples for Polar Name Explorer for .NET Core Component which will help you learn Polar Name Explorer for .NET Core and write your own applications.
 
 <!--- 
-## How to Run the Examples?
+## How to Run the Examples? TODO
 --->
 
 ### Software Requirements
