@@ -12,19 +12,24 @@ Please make sure you meet the following requirements before downloading and runn
 1. Visual Studio 2019 or higher
 1. The example project uses NuGet Automatic Package Restore feature, therefore, you should have an active internet connection
 
-
 ### Download from GitHub
 All examples of Polar Name Explorer for .NET Core Component are hosted on GitHub.
 
-* You can either clone the repository using your favorite GitHub client or download the ZIP file from GitHub.
+* You can either clone the repository using your favorite GitHub client or [download the ZIP](https://github.com/polarsoftware/polar-name-explorer-sdk/archive/refs/heads/main.zip) file from GitHub.
 * Extract the contents of the ZIP file to any folder on your computer. All the examples are located in the Examples folder.
 * The projects are created in Visual Studio 2019, but the solution files are compatible with Visual Studio 2020 and higher.
 * Open the solution file in Visual Studio and build the project.
 * On first run, the dependencies will automatically be downloaded via NuGet.
+* Open RunExamples.cs, all the examples are called from here.
+* Uncomment the examples you want to run from within the project.
 
-Open RunExamples.cs, all the examples are called from here.
-Uncomment the examples you want to run from within the project.
-Please feel free to reach out using our Forums if you have any issues setting up or running the examples.
+[Download the SDK ZIP repository with examples](https://github.com/polarsoftware/polar-name-explorer-sdk/archive/refs/heads/main.zip)
+
+Please feel free to reach out using our [getting help resource](https://github.com/polarsoftware/polar-name-explorer-sdk#getting-help) if you have any issues setting up or running the examples.
+
+**Note:** Before you unzip the archive, right-click it, select Properties, and then select Unblock.
+
+Copyright © Polar d.o.o. 
 
 <!--- 
 *****************
