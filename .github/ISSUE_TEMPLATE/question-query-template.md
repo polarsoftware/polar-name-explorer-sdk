@@ -3,7 +3,7 @@ name: Question/Query template
 about: Use this template to file a question/query for the SDK team that are not bugs
   or feature requests.
 title: "[QUERY]"
-labels: ''
+labels: question
 assignees: ''
 
 ---
