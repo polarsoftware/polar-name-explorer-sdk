@@ -16,15 +16,21 @@ It is an easy-to-use .NET Core component, ideal for software developers who want
 ## Get Started
 #### Quciks Example  
 ```C#
-using Polar.PersonNameExtractor;
+Analytics analytics = new Analytics();
 
-NameExtractor nameExtractor = new NameExtractor();
-var names = nameExtractor.ExtractNames("My name is Rebecca Armstrong, I'm from London.");
-var name = names.FirstOrDefault();
+//Extract name from raw text
+ResultNames resultNames = analytics.ExtractNames("My name is Rebecca Armstrong, I'm from London.");
+ParseName parseName = resultNames.ParseNames.FirstOrDefault();
+Console.WriteLine(parseName.FirstName);//"Rebecca"
+Console.WriteLine(parseName.LastName);//"Armstrong"
+Console.WriteLine(parseName.GenderData.Gender);//"f"      
 
-Console.WriteLine(name.PersonNameData.FullName);//"Rebecca Armstrong"
-Console.WriteLine(name.PersonNameData.First);//"Rebecca"
-Console.WriteLine(name.PersonNameData.Last);//"Armstrong"
+//Parse full name
+ResultNames resultNames = analytics.ParseName("Rebecca Armstrong");            
+parseName = resultNames.ParseNames.FirstOrDefault();
+Console.WriteLine(parseName.FirstName);//"Rebecca"
+Console.WriteLine(parseName.LastName);//"Armstrong"
+Console.WriteLine(parseName.GenderData.Gender);//"f"            
 ```
 
 ## Getting Help
