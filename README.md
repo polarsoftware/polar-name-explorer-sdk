@@ -1,5 +1,5 @@
 # Polar Name Explorer SDK 
-***(Currently, the product is in the release candidate phase. Contact: support@polarsoftware.com)***
+***(Currently, the product is in the release candidate phase. Contact: [getting help](#getting-help) or support@polarsoftware.com)***
 
 The **Polar Name Explorer SDK** enables .NET developers to easily work with **Polar Name Explorer .NET Core Component**.
 
@@ -8,7 +8,7 @@ The **SDK** is an easy-to-use infrastructure containing developer focused exampl
 **Polar Name Explorer .NET Core Component** is the perfect solution to all your name extraction problems.
 It is an easy-to-use .NET Core component, ideal for software developers who want to extract and parse names, surnames from text.
 
-* [Get Started](#getting-started)
+* [Getting started](#getting-started)
 * [Key concepts](#key-concepts)
 * [Examples ](#examples)
 * [Getting Help](#getting-help)
@@ -40,6 +40,7 @@ To including the package directly into project file:
     <PackageReference Include="Polar.NameExplorer" Version="1.0.0" />
     
 ## Key concepts    
+(todo)
 
 ## Examples 
 The following sections provide several code snippets covering some of the most common Polar Name Explorer tasks, including:
