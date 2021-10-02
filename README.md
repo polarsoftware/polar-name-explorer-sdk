@@ -13,6 +13,7 @@ It is an easy-to-use .NET Core component, ideal for software developers who want
 * [Examples ](#examples)
 * [Getting Help](#getting-help)
 * [Opening Issues](#opening-issues)
+* [Trial version and commercial license](#Trial-Version-and-Commercial-License) 
 * [SDK Developer Guide, documentation][wiki-docs]
 * [SDK Examples][sdk-examples]
 
@@ -98,6 +99,11 @@ Please include a stack trace and reduced repro case when appropriate, too.
 The [GitHub issues][sdk-issues] are intended for bug reports and feature requests. 
 For help and questions with using **Polar Name Explorer SDK**  please make use of the resources listed in the Getting Help section. 
 There are limited resources available for handling issues and by keeping the list of open issues clean we can respond in a timely manner.
+
+## Trial version and commercial license
+**Polar Name Explorer .NET Core Component** is a commercial library. You are welcome to explore its full functionality and get technical support from the team when you register for a free 30-day trial.   
+To use it commercially, you need to purchase a license. Feel free to review the Polar License Agreement to get acquainted with the full terms of use.  
+The libraries are subject of the license under which you've obtained the assemblies.
 
 ## Note
 ***Currently, the product is in the release candidate phase.***  
