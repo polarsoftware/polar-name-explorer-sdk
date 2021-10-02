@@ -7,14 +7,45 @@ The **SDK** is an easy-to-use infrastructure containing developer focused exampl
 **Polar Name Explorer .NET Core Component** is the perfect solution to all your name extraction problems.
 It is an easy-to-use .NET Core component, ideal for software developers who want to extract and parse names, surnames from text.
 
-* [Get Started](#get-started)
+* [Get Started](#getting-started)
+* [Key concepts](#key-concepts)
+* [Examples ](#examples)
 * [Getting Help](#getting-help)
 * [Opening Issues](#opening-issues)
 * [SDK Developer Guide, documentation][wiki-docs]
 * [SDK Examples][sdk-examples]
 
-## Get Started
-#### Quciks Example  
+## Getting started
+
+### Install the package
+Recommended way of trial library usage is to install it via [NuGet](https://www.nuget.org/downloads) Package Manager.
+
+#### Package Manager UI
+Within Visual Studio, use the Package Manager UI to browse for `Polar.NameExplorer` trial package and install to your project.
+
+#### Package Manager Console
+Within Visual Studio, use the Package Manager Console command:
+
+    Install-Package Polar.NameExplorer -Version 1.0.0
+
+#### .NET CLI
+Install the package via .NET CLI,use  the following command:
+
+    dotnet add package Polar.NameExplorer --version 1.0.0
+
+### Package reference
+To including the package directly into project file:
+
+    <PackageReference Include="Polar.NameExplorer" Version="1.0.0" />
+    
+## Key concepts    
+
+## Examples 
+The following sections provide several code snippets covering some of the most common Polar Name Explorer tasks, including:
+* [Extract name from text](#extract-name-from-text)
+* [Parse full name](#parse-full-name)
+
+ ### Extract name from text
 ```C#
 Analytics analytics = new Analytics();
 
@@ -24,7 +55,12 @@ ParseName parseName = resultNames.ParseNames.FirstOrDefault();
 Console.WriteLine(parseName.FirstName);//"Rebecca"
 Console.WriteLine(parseName.LastName);//"Armstrong"
 Console.WriteLine(parseName.GenderData.Gender);//"f"      
+```
 
+ ### Parse full name
+ ```C#
+ Analytics analytics = new Analytics();
+ 
 //Parse full name
 ResultNames resultNames = analytics.ParseName("Rebecca Armstrong");            
 parseName = resultNames.ParseNames.FirstOrDefault();
@@ -32,6 +68,12 @@ Console.WriteLine(parseName.FirstName);//"Rebecca"
 Console.WriteLine(parseName.LastName);//"Armstrong"
 Console.WriteLine(parseName.GenderData.Gender);//"f"            
 ```
+
+## Troubleshooting
+### Exception handling
+
+**Polar Name Explorer .NET Core Component**
+A exception is triggered when an operation specific to Polar Name Explorer has encountered an issue. The exception includes some contextual information to assist in understanding the context of the error and its relative severity. 
 
 ## Getting Help
 Please use these community resources for getting help. We use the [GitHub issues][sdk-issues] for tracking bugs and feature requests.
@@ -56,8 +98,8 @@ For help and questions with using **Polar Name Explorer SDK**  please make use o
 There are limited resources available for handling issues and by keeping the list of open issues clean we can respond in a timely manner.
 
 ## Note
+***Currently, the product is in the release candidate phase.***  
 This repository does not contain the actual source code of the components.    
-Currently, the product is in the release candidate phase.  
 Follow the information here on the GitHub repository **Polar Name Explorer SDK** and on the [website](http://name.polarsoftware.com/index.html)    
 If you have any questions feel free to contact us: support@polarsoftware.com, or find anything you want to know here: [issues](https://github.com/polarsoftware/PolarNameExplorerCommunity/issues).
 
