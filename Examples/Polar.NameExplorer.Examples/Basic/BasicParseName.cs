@@ -8,11 +8,8 @@ namespace Polar.NameExplorer.Examples
     {
         public static void Run()
         {
-            Analytics nameExtractor = new Analytics();
-            string firstName = "Rebecca";
-            string lastName = "Armstrong";
-            string fullName = $"{firstName} {lastName}";
-            ResultNames resultNames = nameExtractor.ParseName(fullName);//"Rebecca Armstrong"
+            Analytics analytics = new Analytics();
+            ResultNames resultNames = analytics.ParseName.ParseName("Rebecca Armstrong");
             ParseName parseName = resultNames.ParseNames.FirstOrDefault();
 
             Console.WriteLine(parseName.FirstName + " " + parseName.LastName);//"Rebecca Armstrong"
