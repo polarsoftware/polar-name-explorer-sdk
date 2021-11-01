@@ -12,7 +12,7 @@ namespace Polar.NameExplorer.Examples
             Console.WriteLine("BasicExtracName:");
 
             Analytics analytics = new Analytics();
-            ResultNames resultNames = analytics.ExtractNames("My name is Mary Johnson, I'm from London, England ex Europe.");
+            ResultNames resultNames = analytics.ExtractNames("My name is Mary Johnson, I'm from London, England ex ex-Europe.");
             ParseName parseName = resultNames.ParseNames.FirstOrDefault();
 
             Console.WriteLine($"Full Name: {parseName.FirstName + " " + parseName.LastName}");//"Mary Johnson"
