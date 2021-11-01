@@ -9,7 +9,7 @@ The **SDK** is an easy-to-use infrastructure containing developer focused exampl
 It is an easy-to-use .NET Core component, ideal for software developers who want to extract and parse names, surnames from text.
 
 * [Getting started](#getting-started)
-* [Key concepts](#key-concepts)
+<!-- * [Key concepts](#key-concepts) -->
 * [Examples ](#examples)
 * [Getting Help](#getting-help)
 * [Opening Issues](#opening-issues)
@@ -20,8 +20,12 @@ It is an easy-to-use .NET Core component, ideal for software developers who want
 ## Getting started
 
 ### Install the package
-Recommended way of trial library usage is to install it via [NuGet](https://www.nuget.org/downloads) Package Manager.
+Nuget package you can download from this link [http://download.polarsoftware.com/nameexplorer/Polar.Name.Explorer.0.8.5.zip](http://download.polarsoftware.com/nameexplorer/Polar.Name.Explorer.0.8.5.zip) .   
+This is a trial, release candidate version. When we launch the release version it will be available on the nuge.org web site.
 
+<!-- 
+Recommended way of trial library usage is to install it via [NuGet](https://www.nuget.org/downloads) Package Manager.
+ 
 #### Package Manager UI
 Within Visual Studio, use the Package Manager UI to browse for `Polar.NameExplorer` trial package and install to your project.
 
@@ -39,10 +43,12 @@ Install the package via .NET CLI,use  the following command:
 To including the package directly into project file:
 
     <PackageReference Include="Polar.NameExplorer" Version="1.0.0" />
-    
+ 
+-->
+<!-- 
 ## Key concepts    
 (todo)
-
+-->
 ## Examples 
 The following sections provide several code snippets covering some of the most common Polar Name Explorer tasks, including:
 * [Extract name from text](#extract-name-from-text)
