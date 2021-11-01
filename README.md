@@ -56,8 +56,7 @@ The following sections provide several code snippets covering some of the most c
 * [Extract name from text](#extract-name-from-text)
 * [Parse full name](#parse-full-name)
 
-### Extract name from text - <sub><sup> [source of example](https://github.com/polarsoftware/polar-name-explorer-sdk/blob/main/Examples/Polar.NameExplorer.Examples/Basic/BasicExtracName.cs)</sup></sub>
-
+### Extract name from text
 ```C#
 Analytics analytics = new Analytics();
 ResultNames resultNames = analytics.ExtractNames("My name is Mary Johnson, I'm from London, England ex. Europe.");
@@ -70,9 +69,9 @@ Console.WriteLine($"Gender: {parseName.GenderData.Gender}");//"f"
 Console.WriteLine($"FemalePercent: {parseName.GenderData.FemalePercent}");
 Console.WriteLine($"FemalePercent: {parseName.GenderData.MalePercent}");
 ```
+[source of example](https://github.com/polarsoftware/polar-name-explorer-sdk/blob/main/Examples/Polar.NameExplorer.Examples/Basic/BasicExtracName.cs)
 
-### Parse full name - <sub><sup> [source of example](https://github.com/polarsoftware/polar-name-explorer-sdk/blob/main/Examples/Polar.NameExplorer.Examples/Basic/BasicParseName.cs)</sup></sub>
-
+### Parse full name
  ```C#
 Analytics analytics = new Analytics();
 ResultNames resultNames = analytics.ParseName("Mary Johnson");
@@ -85,6 +84,8 @@ Console.WriteLine($"Gender: {parseName.GenderData.Gender}");//"f"
 Console.WriteLine($"FemalePercent: {parseName.GenderData.FemalePercent}");
 Console.WriteLine($"FemalePercent: {parseName.GenderData.MalePercent}");
 ```
+[source of example](https://github.com/polarsoftware/polar-name-explorer-sdk/blob/main/Examples/Polar.NameExplorer.Examples/Basic/BasicParseName.cs)
+<!--- <sub><sup> Small text </sup></sub> --->
 
 ## Troubleshooting
 ### Exception handling
