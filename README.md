@@ -6,7 +6,7 @@ The **Polar Name Explorer SDK** enables .NET developers to easily work with **Po
 The **SDK** is an easy-to-use infrastructure containing developer focused examples, documentation (GitHub Wiki) and official bug tracker (GitHub Issues).
 
 **Polar Name Explorer .NET Core Component** is the perfect solution to all your name extraction problems.
-It is an easy-to-use .NET Core component, ideal for software developers who want to extract and parse names, surnames from text.
+It is an easy-to-use .NET Core component, ideal for software developers who want to extract and parse names and surnames from text.
 
 * [Getting started](#getting-started) <!-- * [Key concepts](#key-concepts) -->
 * [Examples ](#examples)
@@ -19,7 +19,7 @@ It is an easy-to-use .NET Core component, ideal for software developers who want
 ## Getting started
 
 ### Install the package
-Nuget package you can download from this link: [http://download.polarsoftware.com/nameexplorer/Polar.Name.Explorer.0.8.5.zip](http://download.polarsoftware.com/nameexplorer/Polar.Name.Explorer.0.8.5.zip).    
+You can download Nuget package from this link: [http://download.polarsoftware.com/nameexplorer/Polar.Name.Explorer.0.8.5.zip](http://download.polarsoftware.com/nameexplorer/Polar.Name.Explorer.0.8.5.zip).    
 Right-click on the link and select "Save link as...".   
 Here is instruction [how to install a NuGet package .nupkg file locally?](https://stackoverflow.com/questions/10240029/how-do-i-install-a-nuget-package-nupkg-file-locally)
   
