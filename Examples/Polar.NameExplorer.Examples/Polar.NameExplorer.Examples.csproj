@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>    
-    <PackageReference Include="Polar.Name.Explorer" Version="0.8.5" />
+    <PackageReference Include="Polar.Name.Explorer" Version="0.8.6" />
   </ItemGroup>
 
 	<!--<ItemGroup>
