@@ -6,10 +6,9 @@ The **Polar Name Explorer SDK** enables .NET developers to easily work with **Po
 The **SDK** is an easy-to-use infrastructure containing developer focused examples, documentation (GitHub Wiki) and official bug tracker (GitHub Issues).
 
 **Polar Name Explorer .NET Core Component** is the perfect solution to all your name extraction problems.
-It is an easy-to-use .NET Core component, ideal for software developers who want to extract and parse names, surnames from text.
+It is an easy-to-use .NET Core component, ideal for software developers who want to extract and parse names and surnames from text.
 
-* [Getting started](#getting-started)
-* [Key concepts](#key-concepts)
+* [Getting started](#getting-started) <!-- * [Key concepts](#key-concepts) -->
 * [Examples ](#examples)
 * [Getting Help](#getting-help)
 * [Opening Issues](#opening-issues)
@@ -20,8 +19,15 @@ It is an easy-to-use .NET Core component, ideal for software developers who want
 ## Getting started
 
 ### Install the package
-Recommended way of trial library usage is to install it via [NuGet](https://www.nuget.org/downloads) Package Manager.
+You can download Nuget package from this link: [http://download.polarsoftware.com/nameexplorer/Polar.Name.Explorer.0.8.5.zip](http://download.polarsoftware.com/nameexplorer/Polar.Name.Explorer.0.8.5.zip).    
+Right-click on the link and select "Save link as...".   
+Here is instruction [how to install a NuGet package .nupkg file locally?](https://stackoverflow.com/questions/10240029/how-do-i-install-a-nuget-package-nupkg-file-locally)
+  
+This is a trial, release candidate version, when we launch the release version it will be available on the nuget.org web site.
 
+<!-- 
+Recommended way of trial library usage is to install it via [NuGet](https://www.nuget.org/downloads) Package Manager.
+ 
 #### Package Manager UI
 Within Visual Studio, use the Package Manager UI to browse for `Polar.NameExplorer` trial package and install to your project.
 
@@ -39,38 +45,47 @@ Install the package via .NET CLI,use  the following command:
 To including the package directly into project file:
 
     <PackageReference Include="Polar.NameExplorer" Version="1.0.0" />
-    
+ 
+-->
+<!-- 
 ## Key concepts    
 (todo)
-
+-->
 ## Examples 
 The following sections provide several code snippets covering some of the most common Polar Name Explorer tasks, including:
 * [Extract name from text](#extract-name-from-text)
 * [Parse full name](#parse-full-name)
 
- ### Extract name from text
+### Extract name from text
 ```C#
 Analytics analytics = new Analytics();
-
-//Extract name from raw text
-ResultNames resultNames = analytics.ExtractNames("My name is Rebecca Armstrong, I'm from London.");
+ResultNames resultNames = analytics.ExtractNames("My name is Mary Johnson, I'm from London, England ex-Europe.");
 ParseName parseName = resultNames.ParseNames.FirstOrDefault();
-Console.WriteLine(parseName.FirstName);//"Rebecca"
-Console.WriteLine(parseName.LastName);//"Armstrong"
-Console.WriteLine(parseName.GenderData.Gender);//"f"      
+Console.WriteLine($"Full Name: {parseName.FirstName + " " + parseName.LastName}");//"Mary Johnson"
+Console.WriteLine($"FirstName: {parseName.FirstName}");//"Mary"
+Console.WriteLine($"LastName: {parseName.LastName}");//"Johnson"
+//Gender:            
+Console.WriteLine($"Gender: {parseName.GenderData.Gender}");//"f"            
+Console.WriteLine($"FemalePercent: {parseName.GenderData.FemalePercent}");
+Console.WriteLine($"FemalePercent: {parseName.GenderData.MalePercent}");
 ```
+[source of example](https://github.com/polarsoftware/polar-name-explorer-sdk/blob/main/Examples/Polar.NameExplorer.Examples/Basic/BasicExtracName.cs)
 
- ### Parse full name
+### Parse full name
  ```C#
- Analytics analytics = new Analytics();
- 
-//Parse full name
-ResultNames resultNames = analytics.ParseName("Rebecca Armstrong");            
-parseName = resultNames.ParseNames.FirstOrDefault();
-Console.WriteLine(parseName.FirstName);//"Rebecca"
-Console.WriteLine(parseName.LastName);//"Armstrong"
-Console.WriteLine(parseName.GenderData.Gender);//"f"            
+Analytics analytics = new Analytics();
+ResultNames resultNames = analytics.ParseName("Mary Johnson");
+ParseName parseName = resultNames.ParseNames.FirstOrDefault();
+Console.WriteLine($"Full Name: {parseName.FirstName + " " + parseName.LastName}");//"Mary Johnson"
+Console.WriteLine($"FirstName: {parseName.FirstName}");//"Mary"
+Console.WriteLine($"LastName: {parseName.LastName}");//"Johnson"
+//Gender:            
+Console.WriteLine($"Gender: {parseName.GenderData.Gender}");//"f"            
+Console.WriteLine($"FemalePercent: {parseName.GenderData.FemalePercent}");
+Console.WriteLine($"FemalePercent: {parseName.GenderData.MalePercent}");
 ```
+[source of example](https://github.com/polarsoftware/polar-name-explorer-sdk/blob/main/Examples/Polar.NameExplorer.Examples/Basic/BasicParseName.cs)
+<!--- <sub><sup> Small text </sup></sub> --->
 
 ## Troubleshooting
 ### Exception handling
@@ -101,8 +116,10 @@ For help and questions with using **Polar Name Explorer SDK**  please make use o
 There are limited resources available for handling issues and by keeping the list of open issues clean we can respond in a timely manner.
 
 ## Trial version and commercial license
-**Polar Name Explorer .NET Core Component** is a commercial library. You are welcome to explore its full functionality and get technical support from the team when you register for a free 30-day trial.   
-To use it commercially, you need to purchase a license. Feel free to review the Polar License Agreement to get acquainted with the full terms of use.  
+**Polar Name Explorer .NET Core Component** is a commercial library.  You are welcome to explore its functionality and get technical support from the team when you download  this trial version.   
+Trial version has some limits such as: 30 days, uses only US name list, etc. 
+<!---  You are welcome to explore its full functionality and get technical support from the team when you register for a free 30-day trial.   --->
+To use it commercially, you need to purchase a license (when we launch the release version). Feel free to review the Polar License Agreement to get acquainted with the full terms of use.  
 The libraries are subject of the license under which you've obtained the assemblies.
 
 ## Note
