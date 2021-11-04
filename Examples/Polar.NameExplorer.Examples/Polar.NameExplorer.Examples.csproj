@@ -8,10 +8,7 @@
   <ItemGroup>    
     <PackageReference Include="Polar.Name.Explorer" Version="0.8.6" />
   </ItemGroup>
-
 	<!--<ItemGroup>
 		<PackageReference Include="Polar.Name.Extractor" Version="1.0.0" />
-	</ItemGroup>-->
-
-	
+	</ItemGroup>-->	
 </Project>
