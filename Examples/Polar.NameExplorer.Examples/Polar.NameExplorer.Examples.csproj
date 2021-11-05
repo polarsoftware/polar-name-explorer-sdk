@@ -13,7 +13,7 @@
     <!--<PackageReference Include="PolarNameExplorer"/>-->
     <PackageReference Include="PolarNameExplorer" Version="0.8.7" />
   </ItemGroup>
-	<!--<ItemGroup>
+	<!--<ItemGroup> 
 		<PackageReference Include="Polar.Name.Extractor" Version="1.0.0" />
 	</ItemGroup>-->	
 </Project>
