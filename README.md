@@ -1,5 +1,5 @@
 # Polar Name Explorer SDK 
-***(Currently, the product is in the release candidate phase. Contact: [getting help](#getting-help) or support@polarsoftware.com)***
+***(The product is in the release candidate phase. Contact: [getting help](#getting-help) or support@polarsoftware.com)***
 
 The **Polar Name Explorer SDK** enables .NET developers to easily work with **Polar Name Explorer .NET Core Component**.
 
