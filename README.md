@@ -1,12 +1,17 @@
 # Polar Name Explorer SDK 
-***(Currently, the product is in the release candidate phase. Contact: [getting help](#getting-help) or support@polarsoftware.com)***
+***(The product is in the release candidate phase. Contact: [getting help](#getting-help) or support@polarsoftware.com)***
 
 The **Polar Name Explorer SDK** enables .NET developers to easily work with **Polar Name Explorer .NET Core Component**.
 
 The **SDK** is an easy-to-use infrastructure containing developer focused examples, documentation (GitHub Wiki) and official bug tracker (GitHub Issues).
 
-**Polar Name Explorer .NET Core Component** is the perfect solution to all your name extraction problems.
-It is an easy-to-use .NET Core component, ideal for software developers who want to extract and parse names and surnames from text.
+**Polar Name Explorer .NET Core Component** is an class library allows your .NET applications to extract and parse names and surnames from text, get the gender of the name, and country of origine.
+
+This is a paid commercial product. 
+You can try this NuGet package for free for 30 days, after which you will need to purchase a license key to continue using it.  
+Version below 1.0 is the release candidate version and is not for commercial use.
+
+Supported platforms: .NET 5
 
 * [Getting started](#getting-started) <!-- * [Key concepts](#key-concepts) -->
 * [Examples ](#examples)
@@ -19,34 +24,37 @@ It is an easy-to-use .NET Core component, ideal for software developers who want
 ## Getting started
 
 ### Install the package
+<!-- 
 You can download Nuget package from this link: [http://download.polarsoftware.com/nameexplorer/Polar.Name.Explorer.nupkg.zip](http://download.polarsoftware.com/nameexplorer/Polar.Name.Explorer.nupkg.zip).    
 Right-click on the link and select "Save link as...".   
 Here is instruction [how to install a NuGet package .nupkg file locally?](https://stackoverflow.com/questions/10240029/how-do-i-install-a-nuget-package-nupkg-file-locally)
   
 This is a trial, release candidate version, when we launch the release version it will be available on the nuget.org web site.
 
-<!-- 
 Recommended way of trial library usage is to install it via [NuGet](https://www.nuget.org/downloads) Package Manager.
- 
+ https://www.nuget.org/packages/PolarNameExplorer/
 #### Package Manager UI
-Within Visual Studio, use the Package Manager UI to browse for `Polar.NameExplorer` trial package and install to your project.
+Within Visual Studio, use the Package Manager UI to browse for `PolarNameExplorer` package and install to your project.
+-->
 
-#### Package Manager Console
-Within Visual Studio, use the Package Manager Console command:
-
-    Install-Package Polar.NameExplorer -Version 1.0.0
 
 #### .NET CLI
 Install the package via .NET CLI,use  the following command:
 
-    dotnet add package Polar.NameExplorer --version 1.0.0
+    dotnet add package PolarNameExplorer
 
 ### Package reference
 To including the package directly into project file:
 
-    <PackageReference Include="Polar.NameExplorer" Version="1.0.0" />
- 
--->
+    <PackageReference Include="PolarNameExplorer" Version="0.8.7" />
+
+#### Package Manager Console
+Within Visual Studio, use the Package Manager Console command:
+
+    Install-Package PolarNameExplorer
+
+NuGet.org repository link: https://www.nuget.org/packages/PolarNameExplorer/ 
+
 <!-- 
 ## Key concepts    
 (todo)
