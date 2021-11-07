@@ -9,9 +9,9 @@ The **SDK** is an easy-to-use infrastructure containing developer focused exampl
 
 This is a paid commercial product. 
 You can try this NuGet package for free for 30 days, after which you will need to purchase a license key to continue using it.  
-Version below 1.0 is the release candidate version and is not for commercial use.
+Version below 1.0 is the release candidate version and is not for commercial use.  
+Supported platforms: ![Version](https://img.shields.io/badge/.NET_Core->=_5-blue)
 
-Supported platforms: .NET 5
 
 * [Getting started](#getting-started) <!-- * [Key concepts](#key-concepts) -->
 * [Examples ](#examples)
@@ -52,8 +52,9 @@ To including the package directly into project file:
 Within Visual Studio, use the Package Manager Console command:
 
     Install-Package PolarNameExplorer
-
-NuGet.org repository link: https://www.nuget.org/packages/PolarNameExplorer/ 
+   
+**NuGet.org** repository link:  
+[![Nuget](https://img.shields.io/nuget/v/PolarNameExplorer)](https://www.nuget.org/packages/PolarNameExplorer/) [![Nuget](https://img.shields.io/nuget/dt/PolarNameExplorer)](https://www.nuget.org/packages/PolarNameExplorer/)
 
 <!-- 
 ## Key concepts    
@@ -153,8 +154,13 @@ If you have any questions feel free to contact us: support@polarsoftware.com, or
 <!--- Follow the information here on the GitHub repository **Polar Name Explorer SDK** and on the [website](http://name.polarsoftware.com/index.html) -->
 
 ### Licensing in brief
-100% royalty free distribution, for desktop and server.  
-[License link](https://www.nuget.org/packages/PolarNameExplorer/0.8.7/License)
+Commercial, 100% royalty free distribution, for desktop and server.   
+Polar Name Explorer .NET Core Component is an commercial class library: [License link](https://www.nuget.org/packages/PolarNameExplorer/0.8.7/License)  
+[![License: Commercial](https://img.shields.io/badge/License-Commercial-blue.svg)](https://www.nuget.org/packages/PolarNameExplorer/0.8.7/License)   
+
+**SDK** source code examples:  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+
 
 [sdk-issues]: https://github.com/polarsoftware/polar-name-explorer-sdk/issues
 [wiki-docs]: https://github.com/polarsoftware/polar-name-explorer-sdk/wiki
