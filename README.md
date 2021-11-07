@@ -75,7 +75,7 @@ Console.WriteLine($"LastName: {parseName.LastName}");//"Johnson"
 //Gender:            
 Console.WriteLine($"Gender: {parseName.GenderData.Gender}");//"f"            
 Console.WriteLine($"FemalePercent: {parseName.GenderData.FemalePercent}");
-Console.WriteLine($"FemalePercent: {parseName.GenderData.MalePercent}");
+Console.WriteLine($"MalePercent: {parseName.GenderData.MalePercent}");
 ```
 [source of example](https://github.com/polarsoftware/polar-name-explorer-sdk/blob/main/Examples/Polar.NameExplorer.Examples/Basic/BasicExtracName.cs)
 
@@ -90,7 +90,21 @@ Console.WriteLine($"LastName: {parseName.LastName}");//"Johnson"
 //Gender:            
 Console.WriteLine($"Gender: {parseName.GenderData.Gender}");//"f"            
 Console.WriteLine($"FemalePercent: {parseName.GenderData.FemalePercent}");
-Console.WriteLine($"FemalePercent: {parseName.GenderData.MalePercent}");
+Console.WriteLine($"MalePercent: {parseName.GenderData.MalePercent}");
+
+Console.WriteLine("\nCountry First Name:");
+CountryElement countryElement = parseName.CountryData.FirstNameCountryPhrases.First().CountryElements.First();
+Console.WriteLine($"Country: {countryElement.Country}");
+Console.WriteLine($"Frequency: {countryElement.Frequency}");
+Console.WriteLine($"Certainty: {countryElement.Certainty}");
+Console.WriteLine($"Percent: {countryElement.Percent}");
+                        
+Console.WriteLine("\nCountry Last Name:");
+countryElement = parseName.CountryData.LastNameCountryPhrases.First().CountryElements.First();
+Console.WriteLine($"Country: {countryElement.Country}");
+Console.WriteLine($"Frequency: {countryElement.Frequency}");
+Console.WriteLine($"Certainty: {countryElement.Certainty}");
+Console.WriteLine($"Percent: {countryElement.Percent}");
 ```
 [source of example](https://github.com/polarsoftware/polar-name-explorer-sdk/blob/main/Examples/Polar.NameExplorer.Examples/Basic/BasicParseName.cs)
 <!--- <sub><sup> Small text </sup></sub> --->
@@ -133,11 +147,14 @@ The libraries are subject of the license under which you've obtained the assembl
 ## Note
 ***Currently, the product is in the release candidate phase.***  
 This repository does not contain the actual source code of the components.    
-Follow the information here on the GitHub repository **Polar Name Explorer SDK** and on the [website](http://name.polarsoftware.com/index.html)    
+
+Follow the information here on the GitHub repository [Polar Name Explorer SDK](https://github.com/polarsoftware/polar-name-explorer-sdk).  
 If you have any questions feel free to contact us: support@polarsoftware.com, or find anything you want to know here: [issues](https://github.com/polarsoftware/PolarNameExplorerCommunity/issues).
+<!--- Follow the information here on the GitHub repository **Polar Name Explorer SDK** and on the [website](http://name.polarsoftware.com/index.html) -->
 
 ### Licensing in brief
-100% royalty free distribution, for desktop and server.
+100% royalty free distribution, for desktop and server.  
+[License link](https://www.nuget.org/packages/PolarNameExplorer/0.8.7/License)
 
 [sdk-issues]: https://github.com/polarsoftware/polar-name-explorer-sdk/issues
 [wiki-docs]: https://github.com/polarsoftware/polar-name-explorer-sdk/wiki
