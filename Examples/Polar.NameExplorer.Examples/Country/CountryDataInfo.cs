@@ -7,8 +7,8 @@ namespace Polar.NameExplorer.Examples
     {
         public static void Run()
         {
-            Console.WriteLine("");
-            Console.WriteLine("CountryDataInfo:");
+            
+            Console.WriteLine("\nCountry Data Information:");
             //Licenser.RegisterLicense("x");//some invalide key
             Analytics analytics = new Analytics();
             ResultNames resultNames = analytics.ParseName("Mary Johnson");
@@ -18,17 +18,19 @@ namespace Polar.NameExplorer.Examples
             Console.WriteLine($"FirstName: {parseName.FirstName}");//"Mary"
             Console.WriteLine($"LastName: {parseName.LastName}");//"Johnson"
                         
-            //Country FirstName  
-            Console.WriteLine($"Country: {parseName.CountryData.FirstNameCountryPhrases.First().CountryElements.First().Country}");
-            Console.WriteLine($"Frequency: {parseName.CountryData.FirstNameCountryPhrases.First().CountryElements.First().Frequency}");
-            Console.WriteLine($"Certainty: {parseName.CountryData.FirstNameCountryPhrases.First().CountryElements.First().Certainty}");
-            Console.WriteLine($"Percent: {parseName.CountryData.FirstNameCountryPhrases.First().CountryElements.First().Percent}");
-
-            //Country FirstName              
-            Console.WriteLine($"Country: {parseName.CountryData.LastNameCountryPhrases.First().CountryElements.First().Country}");
-            Console.WriteLine($"Frequency: {parseName.CountryData.LastNameCountryPhrases.First().CountryElements.First().Frequency}");
-            Console.WriteLine($"Certainty: {parseName.CountryData.LastNameCountryPhrases.First().CountryElements.First().Certainty}");
-            Console.WriteLine($"Percent: {parseName.CountryData.LastNameCountryPhrases.First().CountryElements.First().Percent}");
+            Console.WriteLine("\nCountry First Name:");
+            CountryElement countryElement = parseName.CountryData.FirstNameCountryPhrases.First().CountryElements.First();
+            Console.WriteLine($"Country: {countryElement.Country}");
+            Console.WriteLine($"Frequency: {countryElement.Frequency}");
+            Console.WriteLine($"Certainty: {countryElement.Certainty}");
+            Console.WriteLine($"Percent: {countryElement.Percent}");
+                        
+            Console.WriteLine("\nCountry Last Name:");
+            countryElement = parseName.CountryData.LastNameCountryPhrases.First().CountryElements.First();
+            Console.WriteLine($"Country: {countryElement.Country}");
+            Console.WriteLine($"Frequency: {countryElement.Frequency}");
+            Console.WriteLine($"Certainty: {countryElement.Certainty}");
+            Console.WriteLine($"Percent: {countryElement.Percent}");
         }
     }
 }
