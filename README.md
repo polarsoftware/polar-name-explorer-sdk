@@ -110,6 +110,11 @@ Console.WriteLine($"Percent: {countryElement.Percent}");
 [source of example](https://github.com/polarsoftware/polar-name-explorer-sdk/blob/main/Examples/Polar.NameExplorer.Examples/Basic/BasicParseName.cs)
 <!--- <sub><sup> Small text </sup></sub> --->
 
+### Demo website  
+Try the functionality of the component through this demo website that uses the relase version of the component:  
+http://nameapp.polarsoftware.com
+
+
 ## Troubleshooting
 ### Exception handling
 
@@ -144,6 +149,10 @@ Trial version has some limits such as: 30 days, uses only US name list, etc.
 <!---  You are welcome to explore its full functionality and get technical support from the team when you register for a free 30-day trial.   --->
 To use it commercially, you need to purchase a license (when we launch the release version). Feel free to review the Polar License Agreement to get acquainted with the full terms of use.  
 The libraries are subject of the license under which you've obtained the assemblies.
+
+**Website with a fully functional version of the component**   
+You can try the full functionality of the component, release version, no trial version, on the website:   
+http://nameapp.polarsoftware.com
 
 ## Note
 ***Currently, the product is in the release candidate phase.***  
