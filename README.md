@@ -112,7 +112,7 @@ Console.WriteLine($"Percent: {countryElement.Percent}");
 
 ### Demo website  
 Try the functionality of the component through this demo website that uses the relase version of the component:  
-http://nameapp.polarsoftware.com
+https://nameapp.polarsoftware.com
 
 
 ## Troubleshooting
@@ -152,7 +152,7 @@ The libraries are subject of the license under which you've obtained the assembl
 
 **Website with a fully functional version of the component**   
 You can try the full functionality of the component, release version, no trial version, on the website:   
-http://nameapp.polarsoftware.com
+https://nameapp.polarsoftware.com
 
 ## Note
 ***Currently, the product is in the release candidate phase.***  
