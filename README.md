@@ -7,6 +7,9 @@ The **SDK** is an easy-to-use infrastructure containing developer focused exampl
 
 **Polar Name Explorer .NET Core Component** is an class library allows your .NET applications to extract and parse names and surnames from text, get the gender of the name, and country of origine.
 
+
+![image](nameparsetreeclass1.png)
+
 This is a paid commercial product. 
 You can try this NuGet package for free for 30 days, after which you will need to purchase a license key to continue using it.  
 Version below 1.0 is the release candidate version and is not for commercial use.  
