@@ -5,7 +5,7 @@ The **Polar Name Explorer SDK** enables .NET developers to easily work with **Po
 
 The **SDK** is an easy-to-use infrastructure containing developer focused examples, documentation (GitHub Wiki) and official bug tracker (GitHub Issues).
 
-**Polar Name Explorer .NET Core Component** is an class library allows your .NET applications to extract and parse names and surnames from text, get the gender of the name, and country of origine.
+**Polar Name Explorer .NET Core Component** is a class library that allows your .NET applications to extract and parse names and surnames from text, get the gender of the name, and country of origin.
 
 
 ![image](nameparsetreeclass1.png)
@@ -47,7 +47,7 @@ Install the package via .NET CLI,use  the following command:
     dotnet add package PolarNameExplorer
 
 ### Package reference
-To including the package directly into project file:
+To include the package directly into project file:
 
     <PackageReference Include="PolarNameExplorer" Version="0.8.7" />
 
@@ -136,7 +136,6 @@ Please use these community resources for getting help. We use the [GitHub issues
 * Open a support ticket with Polar Support ( support@polarsoftware.com ).  --->
 
 ### Opening Issues
-Opening Issues
 If you encounter a bug with **Polar Name Explorer SDK** we would like to hear about it. 
 Search the existing [issues][sdk-issues] and try to make sure your problem doesn’t already exist before opening a new issue. 
 It’s helpful if you include the version of **Polar Name Explorer SDK** and the OS you’re using. 
@@ -167,7 +166,7 @@ If you have any questions feel free to contact us: support@polarsoftware.com, or
 
 ### Licensing in brief
 Commercial, 100% royalty free distribution, for desktop and server.   
-Polar Name Explorer .NET Core Component is an commercial class library: [License link](https://www.nuget.org/packages/PolarNameExplorer/0.8.7/License)  
+Polar Name Explorer .NET Core Component is a commercial class library: [License link](https://www.nuget.org/packages/PolarNameExplorer/0.8.7/License)  
 [![License: Commercial](https://img.shields.io/badge/License-Commercial-blue.svg)](https://www.nuget.org/packages/PolarNameExplorer/0.8.7/License)   
 
 **SDK** source code examples:  
